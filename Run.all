@@ -1,0 +1,24 @@
+rm ColorTest
+rm minisat
+rm decoder
+echo "#####[making colorTest...]#####"
+cd sat
+make clean
+make
+cp ./ColorTest ../
+make clean
+cd ../
+
+echo "#####[making minisat...]#####"
+cd minisat2.2.0
+export MROOT=$PWD
+cd simp
+echo "simp..."
+echo $MROOT
+make clean
+make
+cp ./minisat ../../
+make clean
+cd ../../
+
+g++ -o decoder decoder.cpp
