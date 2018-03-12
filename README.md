@@ -27,8 +27,8 @@ output CNF files for specified graph-coloring problems, Usage:
 ```
 Examples:
 ```
-	./Colortest 50 7 -Cnf
-	./Colortest 65 8 -c
+	./Colortest 50 7 0.5-Cnf
+	./Colortest 65 8 0.7-c
 ```
 ### Step2. minisat:
 
