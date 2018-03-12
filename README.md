@@ -9,11 +9,9 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 If your computer doesn't have "zlib.h", install the package by typing
-
 ```
 sudo apt-get install libz-dev
 ```
-
 ## How to use the solver ?
 
 ### Step0. Build the solver
@@ -24,7 +22,6 @@ just simply run the script and
 ### Step1. Output CNF formats:
 
 output CNF files for specified graph-coloring problems, Usage:
-
 ```
    ./Colortest <#nodes> <#colors> <conductivity>[-Cnf]
 ```
@@ -44,14 +41,12 @@ Examples:
    ./minisat 50_7_CNF result.log
    ./minisat 65_8_CNF result.log
 ```
-
 ### Step3. decoder:
 
 translate the message from minisat to Graph-coloring problem, Usage:
 ```
    ./decoder <CNF files> <result file>
 ```
-
 Exapmles:
 ```
    ./decoder 50_7_CNF result.log
