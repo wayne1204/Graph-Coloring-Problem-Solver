@@ -2,9 +2,6 @@
 
 A solver using SAT solver to solve graph coloring problem
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
@@ -15,7 +12,7 @@ sudo apt-get install libz-dev
 ## How to use the solver ?
 
 ### Step0. Build the solver
-just simply run the script and 
+just simply run the script 
 ```
 ./Run.all
 ```
